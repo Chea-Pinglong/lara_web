@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 100;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    outline: none;
+
+ 
+}
+.html {
+    scroll-behavior: smooth;
+  }
+.container{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+
+}
+.container .content{
+    text-align: center;
+}
+.container .content h3{
+    font-size: 30px;
+    color: rgb(49, 47, 47);
+}
+.container .content h3 span{
+    background: red;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.container .content h1{
+    font-size: 50px;
+    color: black;
+
+}
+.container .content h1 span{
+color: red;
+}
+.container .content p{
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+.container .content .btn{
+    color: blanchedalmond;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: black;
+    margin: 0 5px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: all 0.1s linear;
+}
+.container .content .btn:hover{
+    background: red;
+
+}
+.form-container{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: rgb(199, 197, 197);
+
+}
+.form-container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    background: white;
+    text-align: center;
+    width: 500px;
+}
+.form-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color:rgb(49, 47, 47) 
+}
+.form-container form input,
+.form-container form select{ 
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: rgb(173, 172, 172);
+    border-radius: 5px;
+
+}
+.form-container form select option{
+    background: rgb(255, 255, 255);
+}
+.form-container form .form-btn{
+    background: rgb(221, 167, 66);
+    text-transform: capitalize;
+    font-size: 20px;
+    transition: all 0.1s linear;
+}
+.form-container form .form-btn:hover{
+    background: rgb(255, 0, 0);
+    color: black;
+}
+.form-container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+}
+.form-container form p a{
+    color:rgb(255, 8, 0)
+}
+.form-container form .error-msg{
+    margin: 10px 0;
+    display: block;
+    background: red;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
